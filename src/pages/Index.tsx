@@ -406,9 +406,6 @@ const Index = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
             <div>
               <div className="flex items-center gap-2 font-display font-bold text-lg mb-4">
-                <div className="w-8 h-8 rounded-lg bg-gradient-hero flex items-center justify-center">
-                  <Sparkles className="h-4 w-4 text-primary-foreground" />
-                </div>
                 Interview Bridge
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">{t("footer.desc")}</p>

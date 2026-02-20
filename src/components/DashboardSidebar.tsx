@@ -63,9 +63,6 @@ export function DashboardSidebar() {
       <div className="p-4 flex items-center gap-2">
         {!collapsed && (
           <div className="flex items-center gap-2 font-display font-bold text-sm">
-            <div className="w-7 h-7 rounded-lg bg-gradient-hero flex items-center justify-center">
-              <Sparkles className="h-3.5 w-3.5 text-primary-foreground" />
-            </div>
             <span>Interview Bridge</span>
           </div>
         )}
