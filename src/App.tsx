@@ -33,6 +33,7 @@ const Loading = () => (
   </div>
 );
 
+
 const App = () => (
   <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
     <LanguageProvider>
